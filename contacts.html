@@ -1,0 +1,120 @@
+<DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shri Ramling High School</title>
+    <link rel="stylesheet"
+		href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		integrity= 
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <nav>
+            <img src="images/logo2.jpg" alt="">
+            <div class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a  href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a class="active" href="contacts.html">Contact</a></li>
+                    <input placeholder="Search " class="search-input">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass" id="logo"></i>
+                    </div>
+                </ul>
+                
+            </div>
+        </nav>
+
+        <section id="about-home">
+            <h3><u>CONTACT US</u></h3>
+                <h2>SHRI RAMLING HIGH SCHOOL</h2>
+                <p>Turmuri,Belgaum Karnataka <br>Year of Establishment:1987<br>UDISE Code:29010411403</p>
+        </section>
+            
+          <!--CONTACT-->  
+            
+        <section id="Contacts">
+
+                <div class="getin">
+                <h2>Get in touch</h2>
+                <p>Looking for help?</p>
+                <div class="getin-details">
+                    <h3>School</h3>
+                    <div>
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>Turmuri(591128) ,Belgaum Karnataka India </p>
+                    </div>
+
+                    <h3>Phone</h3>
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <p>6360228737</p>
+                    </div>
+
+                    <h3>support</h3>
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>RamlingHighschool@support.edu</p>
+                    </div>
+                </div>
+                </div>
+
+
+
+                <div class="form">
+                    <h3>Let's connect</h3>
+                    <div class="form-row">
+                        <input type="text" placeholder="your name">
+                        <input type="text" placeholder="email">
+                    </div>
+                    <div class="form-col">
+                        <input type="text" placeholder="subject">
+                    </div>
+                    <div class="form-col">
+                        <textarea name="" id="" cols="30" rows="8" placeholder="How can we help?"></textarea>
+                    </div>
+                    <div class="form-col">
+                            <button>Send message</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="map">
+                <div><h1>MAP</h1></div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.
+                594307311326!2d74.41519747465283!3d15.877905844532382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+                1!3m3!1m2!1s0x3bbf63d37a4b2eb1%3A0x29fc88aac942cf7f!2sShri%20Ramaling%20High%20school!5e
+                0!3m2!1sen!2sin!4v1704992299076!5m2!1sen!2sin" ] style="border:0;" allowfullscreen="" loading="lazy"
+                 referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+    
+        <!--Footet-->
+        <script  src="script.js"></script>
+    <footer>
+        <div class="foot">
+            <p>|  Shri Ramling High School  |</p><br>
+            Copyright © 2023 Shri Ramling High School. All rights reserved.
+        </div>
+        <p></p>
+    </footer>
+                                <script>
+                                    $('#menu-btn').click(function(){
+                                        $('nav .navigation ul').addClass('active')
+                                    });
+                                    $('#menu-close').click(function(){
+                                        $('nav .navigation ul').removeClass('active')
+                                    });
+                                </script>
+                            
+                                                        
+        </body>
+    </html>
